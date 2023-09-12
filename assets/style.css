@@ -1,0 +1,81 @@
+@font-face {
+  font-family: DMSans;
+  src: url(./font/DMSans.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 1rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: DMSans, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #093682;
+}
+
+nav img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+
+table.header {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.header td {
+  padding: 10px;
+}
+
+table.header th {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+table.header td:nth-child(2), table.header td:nth-child(5) {
+  text-align: center;
+}
+
+.info-terms {
+  padding: 20px;
+}
+
+.info-terms ol {
+  padding: 20px 40px;
+}
+
+table.equipment {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table.equipment th, table.equipment td {
+  padding: 5px 15px; 
+}
+
+.hide {
+  display: none;
+}
+
+.validation-btn {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
