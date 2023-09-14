@@ -79,3 +79,11 @@ table.equipment th, table.equipment td {
   height: 30px;
   font-size: 16px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #083781;
+  padding: 5px;
+  border-radius: 0 0 20px 20px;
+}
